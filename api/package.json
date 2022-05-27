@@ -1,9 +1,12 @@
 {
-  "name": "api",
-  "version": "0.0.0",
-  "private": true,
-  "dependencies": {
-    "@redwoodjs/api": "1.5.1",
-    "@redwoodjs/graphql-server": "1.5.1"
-  }
+    "name": "api",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "@redwoodjs/api": "1.5.1",
+        "@redwoodjs/graphql-server": "1.5.1"
+    },
+    "devDependencies": {
+        "prettier-plugin-prisma": "^3.14.0"
+    }
 }
